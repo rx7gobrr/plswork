@@ -1,5 +1,6 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setVelocity(50, 50)
+    mySprite.setVelocity(50, 50)
 })
 let mySprite: Sprite = null
 mySprite = sprites.create(img`
